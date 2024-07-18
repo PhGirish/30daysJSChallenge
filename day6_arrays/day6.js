@@ -112,6 +112,6 @@ function task12() {
   ];
   console.log(matrix);
   console.table(matrix);
-  console.log(matrix[0][2]);
+  console.log(matrix[0][2]); //task13
 }
 task12();
