@@ -33,7 +33,7 @@ task4.removeChild(lastElement);
 task4.removeChild(task4.lastElementChild);
 
 //task7 (changing img src)
-imageEl.src = "./images/img2.jpg";
+imageEl.src = "../images/img2.jpg";
 
 //task8 (toggle css class)
 btnEl.addEventListener("click", () => {
