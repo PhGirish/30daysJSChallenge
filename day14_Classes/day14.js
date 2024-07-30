@@ -86,3 +86,22 @@ const staff2 = new OfficeStaff("Bharat", 21);
 const staff3 = new OfficeStaff("Bharat", 21);
 
 console.log(staff1.keepTrack());
+
+// task7
+class Account {
+  constructor(balance) {
+    this.balance = balance;
+  }
+  checkBalance() {
+    return `your balance is ${this.balance}`;
+  }
+  withdraw(amount) {
+    this.balance -= amount;
+    return this.balance;
+  }
+}
+
+const Banker = new Account(2000);
+console.log(Banker.checkBalance());
+console.log(Banker.withdraw(1000));
+console.log(Banker.checkBalance());
