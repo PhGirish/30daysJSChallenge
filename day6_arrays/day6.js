@@ -1,11 +1,11 @@
-// task1
+// task1 Create an array of numbers from 1 to 5 and log the array to the console.
 function task1() {
   const numbers = [1, 2, 3, 4, 5];
   console.log(numbers);
 }
 task1();
 
-// task2
+// task2  Access the first and last elements of the array and log them to the console.
 function task2() {
   const numbers = [1, 2, 3, 4, 5];
   console.log(numbers[0]);
@@ -13,7 +13,7 @@ function task2() {
 }
 task2();
 
-// task3
+// task3 Use the push method to add a new number to the end of the array and log the updated array.
 function task3() {
   const numbers = [1, 2, 3, 4, 5];
   numbers.push(11);
@@ -21,7 +21,7 @@ function task3() {
 }
 task3();
 
-//task4
+//task4 Use the pop method to remove the last element from the array and log the updated array.
 function task4() {
   const numbers = [1, 2, 3, 4, 5];
   numbers.pop();
@@ -29,7 +29,7 @@ function task4() {
 }
 task4();
 
-//task5
+//task5 Use the shift method to remove the first element from the array and log the updated array.
 function task5() {
   const numbers = [1, 2, 3, 4, 5];
   numbers.shift();
@@ -37,6 +37,7 @@ function task5() {
 }
 task5();
 
+//splice to remove from 0 remove value 1
 function task51() {
   const numbers = [1, 2, 3, 4, 5];
   numbers.splice(0, 1);
@@ -44,7 +45,7 @@ function task51() {
 }
 task51();
 
-//task6
+//task6 Use the unshift method to add a new number to the beginning of the array and log the updated array.
 function task6() {
   const numbers = [1, 2, 3, 4, 5];
   numbers.unshift(1);
@@ -52,7 +53,7 @@ function task6() {
 }
 task6();
 
-//task7
+//task7 Use the map method to create a new array where each number is doubled and log the new array.
 function task7() {
   const numbers = [1, 2, 3, 4, 5];
 
@@ -63,7 +64,7 @@ function task7() {
 }
 task7();
 
-//task8
+//task8 Use the filter method to create a new array with only even numbers and log the new array.
 function task8() {
   const numbers = [1, 2, 3, 4, 5, 6];
 
@@ -74,7 +75,7 @@ function task8() {
 }
 task8();
 
-//task9
+//task9 Use the reduce method to calculate the sum of all numbers in the array and log the result.
 function task9() {
   const numbers = [1, 2, 3, 4, 5];
 
@@ -85,7 +86,7 @@ function task9() {
 }
 task9();
 
-//task10
+//task10  Use a for loop to iterate over the array and log each element to the console.
 function task10() {
   const numbers = [1, 2, 3, 4, 5];
   for (let i = 0; i < numbers.length; i++) {
@@ -94,7 +95,7 @@ function task10() {
 }
 task10();
 
-// task11
+// task11 Use the forEach method to iterate over the array and log each element to the console.
 function task11() {
   const numbers = [1, 2, 3, 4, 5];
   numbers.forEach((a) => {
@@ -103,7 +104,7 @@ function task11() {
 }
 task11();
 
-//task12
+//task12 Create a two-dimensional array (matrix) and log the entire array to the console.
 function task12() {
   const matrix = [
     [1, 2, 3],
